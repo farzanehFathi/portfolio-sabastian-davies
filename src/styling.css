@@ -3,6 +3,11 @@ body {
   background-color: #212229;
   color: white;
 }
+
+nav {
+  position: relative;
+  bottom: 100%;
+}
 header {
   background-color: tomato;
   text-align: center;
@@ -20,8 +25,24 @@ footer {
   border: 1px solid silver;
 }
 
-/* .container img {
-  height: 100px;
-  width: 100%;
-  object-fit: cover;
-} */
+.highlgihts-wrapper .col-sm-2 {
+  padding: 0.5%;
+}
+
+.highlgihts-wrapper .col-sm-4 {
+  padding: 0 0.5%;
+}
+.highlight-elemt {
+  border: 1px solid tomato;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.highlgihts-wrapper img {
+  padding: 4px;
+  border-radius: 5px;
+}
+.highlgihts-wrapper h6 {
+  margin: 7px 0;
+  color: tomato;
+}
